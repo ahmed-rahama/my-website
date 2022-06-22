@@ -92,7 +92,7 @@
   }
   .about-text h1 {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     padding-left: 50px;
 
     text-align: center;
@@ -101,19 +101,20 @@
   .about img {
     height: 650px;
     width: 650px;
-    padding-left: 70px;
+    /* padding-left: 30px; */
+    margin: 10px;
     border-radius: 15px;
   }
   .about-text h4 {
     color: white;
-    font-size: 35px;
+    font-size: 25px;
     text-transform: capitalize;
     margin-bottom: 5px;
     letter-spacing: 1;
-    padding-left: 70px;
+    padding-left: 20px;
   }
   .about-text p {
-    padding-left: 65px;
+    padding-left: 15px;
     font-size: 20px;
   }
 }
