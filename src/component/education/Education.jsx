@@ -15,7 +15,7 @@ let educationArr = [
       'https://www.tagpress.net/wp-content/uploads/2020/09/EhuA-C2WAAAAwe3.jpeg',
     title: 'High school',
     subtitle:
-      'high school was full og challenges also it was in my city Khartoum ',
+      'high school was full of challenges also it was in my city Khartoum ',
   },
   {
     image: 'https://ust.edu.sd/ust_uploads/2021/10/USISs-1024x399.jpg',
