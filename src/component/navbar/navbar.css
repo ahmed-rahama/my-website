@@ -51,7 +51,7 @@
   border-radius: 3px;
 }
 .nax-text a:hover {
-  background-color: #1a83ff;
+  background-color: #fff;
 }
 
 .nav-menu-items {
@@ -67,4 +67,11 @@
 }
 span {
   margin-left: 16px;
+}
+
+@media screen and (max-width: 810px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+  }
 }

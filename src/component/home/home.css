@@ -8,10 +8,21 @@
   height: 10%;
   min-height: fit-content;
   justify-content: center;
-  background-image: url(../../assets/background.jpeg);
 }
 
-.primary-btn {
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  min-height: 670px;
+  background-image: url(../../assets/newB.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.profile-btn .primary-btn {
   color: #fff;
   border: 2px solid linen;
   font-size: 15px;
@@ -21,9 +32,9 @@
 }
 
 .primary-btn:hover {
-  color: aliceblue;
-  border: 2px solid #ff5822;
-  background-color: #1d3b8b;
+  color: #1f2235;
+  border: 2px solid black;
+  background-color: #fff;
 }
 .profile-parent {
   display: flex;
@@ -46,6 +57,7 @@
 }
 .primary-text {
   color: #fff;
+  font-size: 30px;
 }
 .highlighted-text {
   color: #ca532b;
@@ -56,8 +68,71 @@
 }
 .profile-pic {
   display: flex;
+
   align-items: center;
   justify-content: center;
   box-shadow: 0 3px 0 0 #fff;
   border-radius: 50%;
+  height: 380px;
+  width: 380px;
+  margin: 0 0px 0 100px;
+}
+.profile-background {
+  height: 90%;
+  width: 90%;
+  background-image: url(../../assets/mainimg.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.profile-background:hover {
+  transform: scale(1.09);
+  transition: 1s ease-out;
+}
+.ahmed-soical-m-icons a {
+  color: brown;
+  padding: 10px;
+  font-size: 25px;
+}
+.ahmed-soical-m-icons a:hover {
+  transition: 1s ease-out;
+  color: #fff;
+}
+
+@media screen and (max-width: 1110px) {
+  .profile-pic {
+    margin: 0 0 0 80px;
+  }
+  .proflie-details-name {
+    font-size: 20px;
+  }
+  .primary-text {
+    font-size: 20px;
+  }
+  .proflie-details-description h1 {
+  }
+}
+@media screen and (max-width: 910px) {
+  .profile-pic {
+    margin: 0 0 0 4px;
+    width: 320px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .profile-pic {
+    margin: 0 !important ;
+  }
+  .profile-parent {
+    flex-direction: column-reverse;
+    margin: 40px 0 0 0;
+  }
+  .proflie-details {
+    margin: 25px 0 0;
+  }
+  .p-tagline {
+    margin: 5px;
+  }
 }

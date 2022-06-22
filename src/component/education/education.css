@@ -1,0 +1,85 @@
+.education-container {
+  background: black;
+}
+.education-container h1 {
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+}
+.education-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.education-card {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 230px;
+  margin: 1rem;
+}
+.education-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+.edu-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.edu-content .title {
+  color: #f9004d;
+  font-weight: bold;
+}
+.edu-content p {
+  color: #fff;
+  margin: 10px;
+}
+.education-img {
+  /* display: flex;
+  flex-wrap: wrap; */
+  width: 90%;
+  height: 100vh;
+  align-items: center;
+  /* justify-content: center; */
+}
+.education-img img {
+  display: block;
+  width: 650px;
+  height: 650px;
+  border-radius: 20px;
+  text-align: center;
+}
+.img-center {
+  display: flex;
+  justify-content: center;
+}
+.education-img h3 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 45px;
+}
+@media screen and (min-width: 1900px) {
+  .education-card {
+    min-width: 390px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .education-card {
+    min-width: 100%;
+    margin: 10px;
+  }
+  .education-img img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 10px;
+    align-items: center;
+  }
+}
