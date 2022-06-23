@@ -4,9 +4,11 @@
   box-sizing: border-box;
 }
 .about {
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
   background-color: #191919;
   padding: 70px 0px;
+  text-align: center;
 }
 
 .about img {
@@ -99,11 +101,16 @@
     margin-bottom: 5px;
   }
   .about img {
+    display: block;
     height: 650px;
     width: 650px;
     /* padding-left: 30px; */
-    margin: 10px;
+    margin: 10px auto;
     border-radius: 15px;
+    object-fit: cover;
+  }
+  .about * {
+    margin: 10px auto;
   }
   .about-text h4 {
     color: white;

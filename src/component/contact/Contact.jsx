@@ -5,7 +5,7 @@ import { toast, ToastContainer } from 'react-toastify';
 import { motion } from 'framer-motion';
 export default function Contact() {
   const thanksMessage = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     toast.success("Thank's for Your Message ", {
       position: toast.POSITION.TOP_CENTER,
       autoClose: 5000,
@@ -42,8 +42,8 @@ export default function Contact() {
             {' '}
             <form
               className="contact_form w-100"
-              // onSubmit={thanksMessage}
               action="https://formsubmit.co/ahmmmost@gmail.com"
+              onSubmit={thanksMessage}
               method="POST"
             >
               <Row>
